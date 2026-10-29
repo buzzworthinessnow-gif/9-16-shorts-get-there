@@ -11,6 +11,8 @@ A dedicated **vertical 9:16, under-60-second** adaptation of the long-form [Stic
 - **Engagement:** brief subscribe + future-topic comment invitation at the end; no midpoint interruption.
 - **Visuals:** expressive stickmen with subtle era-appropriate hats, shirts, jackets, trousers or shorts, and shoes; richly detailed historical illustrated environments.
 
+**Audio:** One narrator only. Stickman characters stay silent, and generated scene audio is muted or disabled where supported. See the [narrator-only audio policy](NARRATOR_ONLY_AUDIO_POLICY.md) for exact prompts and mixing checks.
+
 ## Files
 
 - [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) — complete Shorts production agent, 9:16 framing, narration, accuracy checks, timing, and export rules.
