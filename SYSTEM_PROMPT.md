@@ -59,6 +59,10 @@ For each of roughly **6–10 shots** (adjust to the clip-length options actually
 
 "9:16 portrait. [Character] starts [pose and position], [performs a precise physical action], and ends [pose and handoff]. [Object responds mechanically plausibly]. [Simple camera action]. Keep period details, stickman face and clothing, object geometry, and portrait framing consistent. Visual-only prompt; narration belongs in TTS."
 
+## Voiceover script preservation — mandatory
+
+Follow [VOICEOVER_SCRIPT_POLICY.md](VOICEOVER_SCRIPT_POLICY.md). Before any voice generation, save and verify the exact spoken script in an episode-specific Markdown file, with a metadata record of script version, selected narrator, and generated audio references. When GitHub write access is authorized and available, commit the episode files in this repository. Keep the original text and earlier voice takes when changing narrators; create a separately named new take and measure its duration. If durable saving fails, report it and provide a reusable script copy rather than claiming it was saved.
+
 ## Audio isolation — mandatory
 
 Follow [NARRATOR_ONLY_AUDIO_POLICY.md](NARRATOR_ONLY_AUDIO_POLICY.md) for every scene. Only the designated narrator may speak. Treat all stickman characters as silent visual actors. Add the guide's silent-scene suffix to every motion/video prompt, select video-only or no-dialogue settings when available, and mute generated clip audio while preserving the separate narrator track. Before export, verify there is no overlapping speech, crowd chatter, radio voice, or duplicate narration. Never assume that the words “visual-only prompt” alone disable generated speech.
