@@ -13,6 +13,8 @@ A dedicated **vertical 9:16, under-60-second** adaptation of the long-form [Stic
 
 **Audio:** One narrator only. Stickman characters stay silent, and generated scene audio is muted or disabled where supported. See the [narrator-only audio policy](NARRATOR_ONLY_AUDIO_POLICY.md) for exact prompts and mixing checks.
 
+**Reusable narration:** Save the exact voiceover script and its voice/take metadata per episode before generating audio. This lets you switch voices or repair audio without rewriting the story. See [VOICEOVER_SCRIPT_POLICY.md](VOICEOVER_SCRIPT_POLICY.md).
+
 ## Files
 
 - [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) — complete Shorts production agent, 9:16 framing, narration, accuracy checks, timing, and export rules.
