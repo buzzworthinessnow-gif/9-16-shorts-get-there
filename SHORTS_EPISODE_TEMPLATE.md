@@ -34,6 +34,18 @@
 
 Aim for ~105–130 spoken words, adjusted to the measured voice speed. No mid-video subscription interruption. The final CTA must follow the payoff.
 
+## Voiceover preservation
+
+Follow [VOICEOVER_SCRIPT_POLICY.md](VOICEOVER_SCRIPT_POLICY.md). Before narration generation, save the exact script as `episodes/<episode-id>/voiceover-script.md` and record the narrator, version, duration, and asset references in `episodes/<episode-id>/voiceover-metadata.md`. Verify the saved script matches the TTS input. For alternate voices, retain the script and save each audio take separately. Do not overwrite previous takes.
+
+- Episode ID:
+- Script version:
+- Canonical script path:
+- Selected narrator:
+- Generated audio take / project reference:
+- Measured narration duration:
+- Alternate take references:
+
 ## Visual masters
 
 Follow [STICKMAN_WARDROBE_GUIDE.md](STICKMAN_WARDROBE_GUIDE.md).
