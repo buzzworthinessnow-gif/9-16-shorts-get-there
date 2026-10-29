@@ -58,6 +58,10 @@ Follow [STICKMAN_WARDROBE_GUIDE.md](STICKMAN_WARDROBE_GUIDE.md).
 - Visual-only motion prompt:
 - Generation job/status and QA:
 
+## Audio policy
+
+Use [NARRATOR_ONLY_AUDIO_POLICY.md](NARRATOR_ONLY_AUDIO_POLICY.md) for every shot. The designated narrator is the only intelligible voice. Append the silent-scene prompt suffix to every motion/video prompt. Mute generated clip source audio if separate from narration. Confirm no dialogue, crowd chatter, or duplicate narrator before export.
+
 ## Pre-export checklist
 
 - [ ] Strong truthful first 1–3 seconds; no generic intro
